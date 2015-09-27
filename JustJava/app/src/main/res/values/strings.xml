@@ -1,0 +1,8 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Just Java</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="toppings_header">Toppings</string>
+    <string name="thank_you">Thank you <xliff:g id="name">%s</xliff:g>!</string>
+</resources>
