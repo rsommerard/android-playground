@@ -20,13 +20,8 @@ Les titres des playlists et des chansons sont stockés sur une base de données 
 ORMLite est utilisé pour faciliter l'usage des données.
 
 ![Ecran de lancement](misc/splash.png)
-
 ![Liste des playlists](misc/playlists.png)
-
 ![Ajouter une playlist](misc/add-playlist.png)
-
 ![Menu contextuel](misc/contextual-menu.png)
-
 ![Liste des musiques](misc/songs.png)
-
 ![Résultat Youtube](misc/youtube-result.png)
