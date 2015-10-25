@@ -8,7 +8,7 @@ Maps est une initiation à l'API google maps.
 
 ## Madeleine
 
-Comme la madeleine de Proust, la musique peut faire ressortir des souvenirs de moments passés.
+Comme la madeleine de Proust, la musique nous aides à nous remémorer des moments passés.
 
 Madeleine permet de gérer les musiques en les regroupants en playlist.
 
