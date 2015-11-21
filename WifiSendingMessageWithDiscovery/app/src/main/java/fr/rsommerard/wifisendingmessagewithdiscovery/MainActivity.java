@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements Handler.Callback 
     public static final String TAG = "wifimessage";
 
     public static final String SERVICE_NAME = "_RSP2P";
-    public static final String SERVICE_TYPE = "_http._tcp.";
+    public static final String SERVICE_TYPE = "_http._tcp";
 
     private String mDeviceMode = "Client";
     private String mServiceName;
