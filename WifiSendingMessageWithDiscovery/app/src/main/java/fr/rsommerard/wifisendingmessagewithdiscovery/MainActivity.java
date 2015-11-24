@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements Handler.Callback 
     public static final String TAG = "wifimessage";
 
     public static final String SERVICE_NAME = "_RSP2P";
-    public static final String SERVICE_TYPE = "_http._tcp.";
+    public static final String SERVICE_TYPE = "_http._tcp";
 
     private String mDeviceMode = "Client";
     private String mServiceName;
@@ -204,7 +204,7 @@ public class MainActivity extends AppCompatActivity implements Handler.Callback 
                     public void onServiceFound(NsdServiceInfo serviceInfo) {
                         Log.d(TAG, "Service discovery success: " + serviceInfo);
 
-                        if (!serviceInfo.getServiceType().equals(SERVICE_TYPE)) {
+                        if (!serviceInfo.getServiceType().contains(SERVICE_TYPE)) {
                             // Service type is the string containing the protocol and
                             // transport layer for this service.
                             Log.d(TAG, "Unknown Service Type: " + serviceInfo.getServiceType());
