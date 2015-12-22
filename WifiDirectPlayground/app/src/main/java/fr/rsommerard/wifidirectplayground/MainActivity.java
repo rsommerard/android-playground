@@ -6,10 +6,11 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final String TAG = "WDPMainActivity";
+    private final String TAG = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,11 +36,13 @@ public class MainActivity extends AppCompatActivity {
 
     private void startService() {
         Log.d(TAG, "startService P2PService");
+        Toast.makeText(this, "Service started", Toast.LENGTH_SHORT).show();
         startService(new Intent(this, P2PService.class));
     }
 
     private void stopService() {
         Log.d(TAG, "stopService P2PService");
+        Toast.makeText(this, "Service stoped", Toast.LENGTH_SHORT).show();
         stopService(new Intent(this, P2PService.class));
     }
 }
