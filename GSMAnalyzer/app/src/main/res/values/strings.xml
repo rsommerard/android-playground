@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GSMAnalyzer</string>
+    <string name="analyze">Analyze</string>
+    <string name="network_operator_name">Network operator name:</string>
+    <string name="network_operator">Network operator:</string>
+    <string name="sim_operator_name">Sim operator name:</string>
+    <string name="sim_operator">Sim operator:</string>
+    <string name="network_type_name">Network type name:</string>
+    <string name="signal_level_name">Signal level name:</string>
+    <string name="dbm">DBM:</string>
+    <string name="asu">ASU:</string>
+    <string name="location">Location:</string>
+</resources>
