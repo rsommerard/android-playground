@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5.0">
+
+        <TextView
+            android:text="Please submit your details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView25"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:textSize="24sp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:layout_marginTop="46dp"
+            android:layout_below="@+id/editText"
+            android:layout_alignParentStart="true"
+            android:hint="Email" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_marginTop="46dp"
+            android:hint="Name"
+            android:layout_below="@+id/textView25"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:layout_marginTop="46dp"
+            android:id="@+id/editText3"
+            android:layout_below="@+id/editText2"
+            android:layout_alignParentStart="true"
+            android:hint="Password" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:layout_below="@+id/editText3"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="46dp"
+            android:id="@+id/editText4"
+            android:hint="Confirm password" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5.0">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Terms &amp; Conditions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="46dp"
+            android:id="@+id/textView27"
+            android:layout_centerInParent="true"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:id="@+id/textView28"
+            android:textSize="10dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor sodales augue vitae vestibulum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus tempus id elit ut faucibus. Suspendisse eu justo non ex lacinia lacinia a ac justo. Donec tortor felis, aliquet et tempus sed, semper non nisl. Maecenas eget faucibus ex. In in nunc sit amet nisl vulputate varius vel eget nibh. Sed volutpat non risus quis blandit. Donec bibendum sed ante vel eleifend. Pellentesque accumsan purus at orci iaculis varius. Fusce blandit mollis magna, malesuada posuere nulla posuere a. Phasellus ullamcorper laoreet tortor vel faucibus. Etiam quis tincidunt velit. Praesent tempus nisl ac ipsum volutpat dapibus. Donec mattis tortor vel lacus fringilla, nec posuere nisi congue. "
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/textView27"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="46dp" />
+
+        <Button
+            android:text="Can't wait! Sign me up!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:layout_marginRight="85dp"
+            android:layout_alignBaseline="@+id/checkBox"
+            android:layout_alignBottom="@+id/checkBox"
+            android:layout_alignStart="@+id/textView27" />
+
+        <CheckBox
+            android:text="I agree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="46dp"
+            android:id="@+id/checkBox"
+            android:layout_below="@+id/textView28"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="16dp" />
+
+    </RelativeLayout>
+</LinearLayout>
