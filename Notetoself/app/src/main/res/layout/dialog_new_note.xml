@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:id="@+id/editTitle"
+        android:layout_marginTop="35dp"
+        android:hint="@string/title_hint" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_below="@id/editTitle"
+        android:id="@+id/editDescription"
+        android:layout_marginTop="35dp"
+        android:hint="@string/description_hint" />
+
+    <CheckBox
+        android:text="@string/idea_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editDescription"
+        android:id="@+id/checkBoxIdea"
+        android:layout_marginTop="35dp" />
+
+    <CheckBox
+        android:text="@string/todo_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBoxIdea"
+        android:id="@+id/checkBoxTodo"
+        android:layout_marginTop="35dp" />
+
+    <CheckBox
+        android:text="@string/important_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBoxTodo"
+        android:id="@+id/checkBoxImportant"
+        android:layout_marginTop="35dp" />
+
+    <Button
+        android:text="@string/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCancel"
+        android:layout_below="@id/checkBoxImportant"
+        android:layout_marginTop="35dp" />
+
+    <Button
+        android:text="@string/ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnOK"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/checkBoxImportant"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
