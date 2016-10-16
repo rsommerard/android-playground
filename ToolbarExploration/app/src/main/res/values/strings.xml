@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Toolbar Exploration</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="compose">Compose</string>
+    <string name="profile">Profile</string>
+    <string name="toolbar_title">Toolbar Title</string>
+</resources>

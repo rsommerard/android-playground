@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Device Detection</string>
+    <string name="detect">Detect</string>
+    <string name="underscore">_</string>
+</resources>
